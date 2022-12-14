@@ -1,27 +1,26 @@
-# PyBer Analysis
+# Pyber Analysis
 
-## Overview of Project
-
-### Purpose
-
-## Analysis and Challenges
-
-### Analysis of Outcomes Based on Launch Date
-
-### Analysis of Outcomes Based on Goals
-
-### Challenges and Difficulties Encountered
+## Overview of the analysis
+The purpose of this exploratory analysis is to provide Pyber a ride-share data analysis to help the company make decisions to improve access and affordability to ride-sharing services in undersourced neighborhoods. 
 
 ## Results
+The results will consist of finding the differences in ride-sharing data between city types. This will be done by creating dataframes and visualizations of the dataset.
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+The data shows that urban neighborhoods have the highest availability of rides (1625) and drivers (2405) at a more affordable fare ($24.53). 
 
-- What can you conclude about the Outcomes based on Goals?
+As we look out to the surrounding neighborhoods of suburban and rural communities, the rides and driver availability decrease while the fare increases. The rural neighborhoods have the lowest Rides (125) and drivers (78) at a more expensive fare ($34.62).
 
-- What are some limitations of this dataset?
+![](./Resources/dfSummary.png)
 
-- What are some other possible tables and/or graphs that we could create?
+The line chart below works as a great visual aid in showing the major differences in the ride-share data between neighborhoods.
 
-![](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
+![](./Resources/LineChart.png)
 
-![](./analysis/Fig1.png)
+## Summary
+According to this analysis the results show that there is a huge disparaty of ride-share services available in the rural community compareed to the urban community. Three recommedations are as followed:
+
+1. Pyber should implement a loyalty program for the rural neighborhood. To incentivize ride-share service in the rural neighborhoods to keep customers using the ride-share service as well as drivers to be readily available. 
+
+2. The analysis should include a more deeper look into demographics such as gender, age, and marital status. This will give the company a better idea of who are the drivers and riders.
+
+3. Extend the analysis to include the whole year to foresee a seasonal trend of ride-share behavior.
